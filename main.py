@@ -1,4 +1,4 @@
-from src.version_one.adapters.cmd.index import cmd_create_person
+from src.adapters.cmd.index import cmd_create_person
 
 while True:
     cmd_create_person()

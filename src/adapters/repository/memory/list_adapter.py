@@ -1,6 +1,6 @@
 from typing import List
-from src.version_one.adapters.repository.repository_interface import RepositoryInterface
-from src.version_one.entity.person import Person
+from src.adapters.repository.repository_interface import RepositoryInterface
+from src.entity.person import Person
 
 class ListAdapter(RepositoryInterface):
     _people: List[Person] = []
