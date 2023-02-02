@@ -1,6 +1,6 @@
-from src.version_one.adapters.repository.repository_interface import RepositoryInterface
-from src.version_one.entity.person import Person
-from src.version_one.use_case.process_create_person.dto_create_person import PersonDtoInput, PersonDtoOutput
+from src.adapters.repository.repository_interface import RepositoryInterface
+from src.entity.person import Person
+from src.use_case.process_create_person.dto_create_person import PersonDtoInput, PersonDtoOutput
 
 
 class ProcessCreatePerson():

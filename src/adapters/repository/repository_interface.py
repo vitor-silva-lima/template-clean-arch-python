@@ -1,5 +1,5 @@
 import abc
-from src.version_one.entity.person import Person
+from src.entity.person import Person
 
 class RepositoryInterface(metaclass = abc.ABCMeta):
 

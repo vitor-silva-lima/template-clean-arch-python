@@ -1,6 +1,6 @@
-from src.version_one.adapters.repository.memory.list_adapter import ListAdapter
-from src.version_one.use_case.process_create_person.dto_create_person import PersonDtoInput
-from src.version_one.use_case.process_create_person.process_create_person import ProcessCreatePerson
+from src.adapters.repository.memory.list_adapter import ListAdapter
+from src.use_case.process_create_person.dto_create_person import PersonDtoInput
+from src.use_case.process_create_person.process_create_person import ProcessCreatePerson
 
 def create_person(name: str, age: int, genre: str):
     repository = ListAdapter()
