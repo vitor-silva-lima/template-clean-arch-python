@@ -1,6 +1,7 @@
 ## 💻 Projeto
 
 Repositório de estrutura Clean Architecture e princípios SOLID com Python<br>
+Clean Architecture framework repository and SOLID principles with Python<br>
 
 ## 🧪 Tecnologias
 
