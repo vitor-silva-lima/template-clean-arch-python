@@ -1,13 +1,10 @@
 import abc
-from typing import List
-
-
-from src.version_one.entity.pessoa import Pessoa
+from src.version_one.entity.person import Person
 
 class RepositoryInterface(metaclass = abc.ABCMeta):
 
     @abc.abstractclassmethod
-    def person_create(self, pessoa: Pessoa):
+    def person_create(self, person: Person):
         ...
 
     @abc.abstractclassmethod

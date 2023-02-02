@@ -1,4 +1,4 @@
-from src.version_one.adapters.web_server.fast_api.controllers.pessoa_controller import controller
+from src.version_one.adapters.cmd.index import cmd_create_person
 
-
-controller()
+while True:
+    cmd_create_person()
