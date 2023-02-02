@@ -1,6 +1,7 @@
 from src.version_one.controllers.person_controller import create_person
 
 def cmd_create_person():
+    print("\nPerson registration")
     print("Enter your name : ")
     name = input()
 
